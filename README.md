@@ -11,7 +11,9 @@
 
 Тут лежит красивый прототип, который был нарисован, пока кто-то боялся браться за код:
 
-![Ссылка](https://www.figma.com/design/EzrbVduf2gCAzZBwL26uxG/Чат%2FМессенджер?node-id=0-1&t=6RoHXNLrmTWKsvD2-0)
+[a link](https://www.figma.com/design/EzrbVduf2gCAzZBwL26uxG/Чат%2FМессенджер?node-id=0-1&t=6RoHXNLrmTWKsvD2-0)
 
+Деплой тут:
+[a link](https://deploy--stellar-monstera-58c413.netlify.app/)
 
 Проект, пожалуйста, работай!!

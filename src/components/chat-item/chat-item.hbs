@@ -1,8 +1,13 @@
-<div class="chat-item{{#if current}} chat-item__block--current{{/if}}">
+<div 
+  class="chat-item{{#if current}} chat-item__block--current{{/if}}">
   {{#if avatar}}
-  <img class="chat-item__avatar" src={{ avatar }} />
+  <img 
+    class="chat-item__avatar" 
+    src={{ avatar }} />
   {{else }}
-  <img class="chat-item__avatar" src="src/assets/no-avatar-icon.png"/>
+  <img 
+    class="chat-item__avatar" 
+    src="src/assets/no-avatar-icon.png"/>
   {{/if}}
   <div class="chat-item__text-block">
     <p class="chat-item__name">

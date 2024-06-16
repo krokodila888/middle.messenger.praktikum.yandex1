@@ -10,19 +10,4 @@
   border-radius: 16px;
   margin-top: 80px;
   @include shadow;
-
-  &__content {
-    flex: 1;
-  }
-
-  &__input input {
-    margin-top: 16px;
-    background-color: $light-beige-color;
-    color: $dark-grey-color;
-    @include shadow-inside;
-    height: 40px;
-    border-radius: 16px;
-    box-sizing: border-box;
-    padding: 6px 20px;
-  }
 }

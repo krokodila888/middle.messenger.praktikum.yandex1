@@ -8,8 +8,10 @@
     {{> Link link="Your profile" page="profile" className="link__link_medium" }}
     {{> Avatar }}
   </div>
-    {{else}}
+  {{else}}
+  <div>
     {{> Link link="Your chats" page="chat" className="link__link_medium" }}
     {{> ChatIcon}}
+  </div>
   {{/if}}
 </div>

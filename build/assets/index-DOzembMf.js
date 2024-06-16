@@ -36,11 +36,11 @@ Expecting `+x.join(", ")+", got '"+(this.terminals_[k]||k)+"'":T="Parse error on
   {{#if avatar}}\r
   <img \r
     class="chat-item__avatar" \r
-    src={{ avatar }} />\r
+    src="/assets/avatar.png" />\r
   {{else }}\r
   <img \r
     class="chat-item__avatar" \r
-    src="src/assets/no-avatar-icon.png"/>\r
+    src="/assets/no-avatar-icon.png"/>\r
   {{/if}}\r
   <div class="chat-item__text-block">\r
     <p class="chat-item__name">\r
@@ -88,11 +88,11 @@ Expecting `+x.join(", ")+", got '"+(this.terminals_[k]||k)+"'":T="Parse error on
 </div>`,An=`<h1 class="title">\r
   {{ title }}<span class="title__span">{{span}} </span>\r
 </h1>\r
-`,In='<div class="header__logo"></div>',Nn=`<div class="error-field">\r
+`,In='<div class="header__logo1"></div>',Nn=`<div class="error-field">\r
   <p class="error-field__text">{{ text }}</p>\r
 </div>`,Rn=`<img \r
   class="avatar {{#if current}} avatar__big{{/if}}" \r
-  src="src/assets/avatar.png"\r
+  src="/assets/avatar.png"\r
 />`,Bn=`<div class="current-chat">\r
   {{#if text}}\r
     <p class="current-chat__text">{{text}}</p>\r
@@ -148,12 +148,12 @@ Expecting `+x.join(", ")+", got '"+(this.terminals_[k]||k)+"'":T="Parse error on
     <img \r
       class="exit-button__img{{#if next}} button__next{{/if}}" \r
       page="LoginPage"\r
-      src="src/assets/exit-icon.png"\r
+      src="/assets/exit-icon.png"\r
     />\r
   </button>\r
 </div>`,qn=`<img \r
   class="chat-icon {{#if current}}chat-icon__big{{/if}}" \r
-  src="src/assets/chat-icon.png"\r
+  src="/assets/chat-icon.png"\r
 />`,Vn=`<div class="profile-input">\r
   <p class="profile-input__title">{{ title }}</p>\r
   <input\r
@@ -183,7 +183,7 @@ Expecting `+x.join(", ")+", got '"+(this.terminals_[k]||k)+"'":T="Parse error on
 `;Ve.registerHelper("chat-page-list",()=>[{name:"Boss",message:"Проверьте почту"},{name:"Those fellow",message:"Текст текст текст Текст текст текст Текст текст текст Текст текст текст Текст текст текст"},{name:"Oleg",message:"Приветики! У нас есть новые правки!!!)))",avatar:"src/assets/avatar.png"}]);const Wn=`{{#> Page }}\r
   <form class="login-page">\r
     <div class="login-page__content">\r
-      {{> PageTitle title="Common " span="chat" logo="src/assets/logo.png" }}\r
+      {{> PageTitle title="Common " span="chat" }}\r
       {{> Input className="login-page__input" placeholder="Login" name="login" }}\r
       {{> Input className="login-page__input" placeholder="Password" name="password" }}\r
     </div>\r
@@ -281,8 +281,8 @@ Expecting `+x.join(", ")+", got '"+(this.terminals_[k]||k)+"'":T="Parse error on
       {{> ErrorField text="Error 404" }}\r
       {{> Link text="No such page. Sorry(" }}\r
       {{> Link page="login" link="Go back and try again"}}\r
-      <img src="src/assets/left-pic.png" class="error-page__img-left"/>\r
-      <img src="src/assets/right-pic.png" class="error-page__img-right"/>\r
+      <img src="/assets/left-pic.png" class="error-page__img-left"/>\r
+      <img src="/assets/right-pic.png" class="error-page__img-right"/>\r
       {{> Logo }}\r
   </div>\r
 {{/ Page }}\r
@@ -292,8 +292,8 @@ Expecting `+x.join(", ")+", got '"+(this.terminals_[k]||k)+"'":T="Parse error on
       {{> ErrorField text="Error 500" }}\r
       {{> Link text="Something went wrong. Sorry(" }}\r
       {{> Link page="login" link="Go back and try again"}}\r
-      <img src="src/assets/left-pic.png" class="error-page__img-left"/>\r
-      <img src="src/assets/right-pic.png" class="error-page__img-right"/>\r
+      <img src="/assets/left-pic.png" class="error-page__img-left"/>\r
+      <img src="/assets/right-pic.png" class="error-page__img-right"/>\r
       {{> Logo }}\r
   </div>\r
 {{/ Page }}\r

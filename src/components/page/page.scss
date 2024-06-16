@@ -1,0 +1,14 @@
+@import '../../assets/variables';
+
+body {
+  margin: 0;
+}
+.page {
+  background: $light-grey-color;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 26px;
+}

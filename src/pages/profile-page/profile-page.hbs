@@ -1,0 +1,18 @@
+{{#> Page }}
+{{> BigHeader }}
+  <form class="profile-page">
+    <div class="profile-page__content">
+      {{> Title title="Your " span="profile" }}
+      {{> Input className="profile-page__input" placeholder="First name" name="first_name" }}
+      {{> Input className="profile-page__input" placeholder="Second name" name="second_name" }}
+      {{> Input className="profile-page__input" placeholder="Login" name="login" }}
+      {{> Input className="profile-page__input" placeholder="Email" name="email" }}
+      {{> Input className="profile-page__input" placeholder="Phone number" name="phone" }}
+      {{> Input className="profile-page__input" placeholder="Password" name="password" type="password" }}
+    </div>
+    {{> ExitButton  }}
+  </form>
+  {{> Link page="error404" text="Ошибок быть не может, но вдруг: " link="Ошибка 404"}}
+  {{> Link page="error500" text="И вот еще " link="Ошибка 5**"}}
+{{/ Page }}
+

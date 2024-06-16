@@ -1,0 +1,15 @@
+<div class="big-header">
+  <div>
+    {{> Logo }}
+    {{> Title title="Common " span="chat" }}
+  </div>
+  {{#if chat}}
+  <div>
+    {{> Link link="Your profile" page="profile" className="link__link_medium" }}
+    {{> Avatar }}
+  </div>
+    {{else}}
+    {{> Link link="Your chats" page="chat" className="link__link_medium" }}
+    {{> ChatIcon}}
+  {{/if}}
+</div>
